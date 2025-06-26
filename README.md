@@ -4,8 +4,8 @@ This project demonstrates a simple microservice architecture using Docker Compos
 ## 🚀 Setup Instructions
 
 1. **Clone the repository:**
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Vaibhav-tg/DPD_Zero.git
+cd DPD_Zero
 
 2. Build and run the services with Docker Compose:
     docker-compose up --build
@@ -31,6 +31,7 @@ location /service2/ {
 -------
 
 🎁 Bonus Features added:
+
 1.Health Checks: Each service has a Docker health check using the /ping endpoint to ensure the container is healthy.
 2.Logging: You can check routing and container logs using:
       docker-compose logs nginx
