@@ -40,6 +40,7 @@ location /service2/ {
 3.Clean and modular Docker setup
 
 Status
+
  ✅ Service 1 reachable through NGINX
  ✅ Service 2 reachable through NGINX
  ✅ Health checks configured
